@@ -1,0 +1,93 @@
+                                                                      04/25/26
+                                                                      17:21:33
+  ***  SCREEN3 MODEL RUN  ***
+  *** VERSION DATED 13043 ***
+
+ Simulacion                                                                     
+
+ SIMPLE TERRAIN INPUTS:
+    SOURCE TYPE            =        POINT
+    EMISSION RATE (G/S)    =      2035.42    
+    STACK HEIGHT (M)       =      60.0000
+    STK INSIDE DIAM (M)    =      11.0000
+    STK EXIT VELOCITY (M/S)=      12.0000
+    STK GAS EXIT TEMP (K)  =     413.0000
+    AMBIENT AIR TEMP (K)   =     293.0000
+    RECEPTOR HEIGHT (M)    =       0.0000
+    URBAN/RURAL OPTION     =        RURAL
+    BUILDING HEIGHT (M)    =       0.0000
+    MIN HORIZ BLDG DIM (M) =       0.0000
+    MAX HORIZ BLDG DIM (M) =       0.0000
+
+ THE REGULATORY (DEFAULT) MIXING HEIGHT OPTION WAS SELECTED.
+ THE REGULATORY (DEFAULT) ANEMOMETER HEIGHT OF 10.0 METERS WAS ENTERED.
+
+
+ BUOY. FLUX = 1034.277 M**4/S**3;  MOM. FLUX = 3090.334 M**4/S**2.
+
+ *** FULL METEOROLOGY ***
+
+ **********************************
+ *** SCREEN AUTOMATED DISTANCES ***
+ **********************************
+
+ *** TERRAIN HEIGHT OF    0. M ABOVE STACK BASE USED FOR FOLLOWING DISTANCES ***
+
+   DIST     CONC             U10M   USTK  MIX HT   PLUME   SIGMA   SIGMA
+    (M)   (UG/M**3)   STAB  (M/S)  (M/S)    (M)   HT (M)   Y (M)   Z (M)  DWASH
+ -------  ----------  ----  -----  -----  ------  ------  ------  ------  -----
+     50.   0.4951E-12    5     1.0    1.9 10000.0  303.88   33.67   33.57    NO
+    100.   0.1070E-01    5     1.0    1.9 10000.0  303.88   53.55   53.32    NO
+    200.    5.600        5     1.0    1.9 10000.0  303.88   70.64   69.96    NO
+    300.    5.897        5     1.0    1.9 10000.0  303.88   71.70   70.22    NO
+    400.    6.227        5     1.0    1.9 10000.0  303.88   73.07   70.51    NO
+    500.    6.611        5     1.0    1.9 10000.0  303.88   74.73   70.85    NO
+    600.    7.047        5     1.0    1.9 10000.0  303.88   76.65   71.21    NO
+    700.    17.32        1     3.0    3.4   960.0  792.85  186.23  238.73    NO
+    800.    108.5        1     3.0    3.4   960.0  792.85  207.60  306.29    NO
+    900.    288.5        1     3.0    3.4   960.0  792.85  228.53  384.60    NO
+   1000.    534.7        1     2.5    2.8   940.4  939.42  264.89  482.28    NO
+   1100.    744.5        1     2.5    2.8   940.4  939.42  285.90  581.87    NO
+   1200.    857.0        1     2.5    2.8   940.4  939.42  306.57  692.53    NO
+   1300.    885.8        1     2.5    2.8   940.4  939.42  326.94  814.35    NO
+   1400.    866.2        1     2.5    2.8   940.4  939.42  347.03  947.39    NO
+   1500.    828.3        1     2.5    2.8   940.4  939.42  366.86 1091.73    NO
+   1600.    788.1        1     2.5    2.8   940.4  939.42  386.46 1247.43    NO
+   1700.    750.7        1     2.5    2.8   940.4  939.42  405.84 1414.56    NO
+   1800.    716.8        1     2.5    2.8   940.4  939.42  425.02 1593.18    NO
+   1900.    686.2        1     2.5    2.8   940.4  939.42  444.01 1783.37    NO
+   2000.    664.4        1     2.5    2.8   940.4  939.42  458.58 1984.19    NO
+   2100.    644.6        1     2.5    2.8   940.4  939.42  472.65 2196.75    NO
+   2200.    625.9        1     2.5    2.8   940.4  939.42  486.80 2421.23    NO
+   2300.    608.1        1     2.5    2.8   940.4  939.42  501.01 2657.63    NO
+   2400.    591.3        1     2.5    2.8   940.4  939.42  515.26 2906.01    NO
+   2500.    575.3        1     2.5    2.8   940.4  939.42  529.56 3166.39    NO
+   2600.    560.2        1     2.5    2.8   940.4  939.42  543.88 3438.80    NO
+   2700.    545.8        1     2.5    2.8   940.4  939.42  558.23 3723.30    NO
+   2800.    532.1        1     2.5    2.8   940.4  939.42  572.60 4019.92    NO
+   2900.    519.0        1     2.5    2.8   940.4  939.42  586.98 4328.69    NO
+   3000.    506.6        1     2.5    2.8   940.4  939.42  601.37 4649.67    NO
+
+ MAXIMUM 1-HR CONCENTRATION AT OR BEYOND    50. M:
+   1297.    885.9        1     2.5    2.8   940.4  939.42  326.13  809.27    NO
+
+  DWASH=   MEANS NO CALC MADE (CONC = 0.0)
+  DWASH=NO MEANS NO BUILDING DOWNWASH USED
+  DWASH=HS MEANS HUBER-SNYDER DOWNWASH USED
+  DWASH=SS MEANS SCHULMAN-SCIRE DOWNWASH USED
+  DWASH=NA MEANS DOWNWASH NOT APPLICABLE, X<3*LB
+
+      ***************************************
+      *** SUMMARY OF SCREEN MODEL RESULTS ***
+      ***************************************
+
+  CALCULATION        MAX CONC    DIST TO   TERRAIN
+   PROCEDURE        (UG/M**3)    MAX (M)    HT (M)
+ --------------    -----------   ---------   -------
+ SIMPLE TERRAIN       885.9         1297.        0.
+
+
+ ***************************************************
+ ** REMEMBER TO INCLUDE BACKGROUND CONCENTRATIONS **
+ ***************************************************
+
